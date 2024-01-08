@@ -65,7 +65,7 @@ def get_modpack_name(file):
             out = out.replace(i, '_')
     return out
 
-    return out
+
 if __name__ == '__main__':
     manifestLocation = input('Enter the absolute path to your manifeste.json: ')
     installDirectory, token = load_config()
